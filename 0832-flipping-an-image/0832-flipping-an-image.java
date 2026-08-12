@@ -1,16 +1,16 @@
 class Solution {
     public int[][] flipAndInvertImage(int[][] image) {
         for(int i=0;i<image.length;i++){
-            int start=0;
-            int end=image.length-1;
 
-            while(start<=end){
-                int temp = image[i][start];
-                image[i][start]=1-image[i][end];
-                image[i][end]=1-temp;
+            int right=0;
+            int left=image[i].length-1;
 
-                start++;
-                end--;
+            while(right<=left){
+                int temp=image[i][right];
+                image[i][right]=1-image[i][left];
+                image[i][left]=1-temp;
+                right++;
+                left--;
             }
         }
         return image;

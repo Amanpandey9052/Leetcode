@@ -6,12 +6,12 @@ class Solution {
             int row=index[0];
             int column=index[1];
 
-            for(int i=0;i<n;i++){
-                matrix[row][i]++;
+            for(int j=0;j<n;j++){
+                matrix[row][j]++;
             }
 
-            for(int j=0;j<m;j++){
-                matrix[j][column]++;
+            for(int i=0;i<m;i++){
+                matrix[i][column]++;
             }
         }
 

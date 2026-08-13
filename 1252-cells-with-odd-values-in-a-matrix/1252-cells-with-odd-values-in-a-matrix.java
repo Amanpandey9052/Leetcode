@@ -1,0 +1,28 @@
+class Solution {
+    public int oddCells(int m, int n, int[][] indices) {
+        int[][] matrix = new int[m][n];
+
+        for(int[] index:indices){
+            int row=index[0];
+            int column=index[1];
+
+            for(int i=0;i<n;i++){
+                matrix[row][i]++;
+            }
+
+            for(int j=0;j<m;j++){
+                matrix[j][column]++;
+            }
+        }
+
+        int count=0;
+        for(int i=0;i<matrix.length;i++){
+            for(int j=0;j<matrix[i].length;j++){
+                if(matrix[i][j]%2!=0){
+                    count++;
+                }
+            }
+        }
+        return count;
+    }
+}

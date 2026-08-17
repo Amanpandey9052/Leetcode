@@ -1,6 +1,6 @@
 class Solution {
     public int oddCells(int m, int n, int[][] indices) {
-        int[][] matrix = new int[m][n];
+        int[][] matrix=new int[m][n];
 
         for(int[] index:indices){
             int row=index[0];
@@ -23,6 +23,7 @@ class Solution {
                 }
             }
         }
+
         return count;
     }
 }

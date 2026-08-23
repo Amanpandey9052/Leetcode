@@ -1,23 +1,23 @@
 class Solution {
     public List<Integer> addToArrayForm(int[] num, int k) {
         
-       List<Integer> list = new ArrayList<>();
+    List<Integer> list = new ArrayList<>();
 
-        int i = num.length-1;
-        int carry=0;
-        while(i>=0 ||k>0||carry>0){
-            int digit=k%10;
-            int newDigit=(i>=0)?num[i]:0;
-            int sum=newDigit+digit+carry;
-            list.add(sum%10);
-            carry=sum/10;
-            k=k/10;
-            i--;
-        }
+    int n = num.length-1;
+    int carry=0;
 
-        Collections.reverse(list);
+    while(n>=0 ||k>0 ||carry>0){
+        int digit=k%10;
+        int newSum=(n>=0)?num[n]:0;
+        int sum=newSum+digit+carry;
+        list.add(sum%10);
+        carry=sum/10;
+        k=k/10;
+        n--;
+    }
 
-        return list;
-        
+    Collections.reverse(list);
+
+    return list;
     }
 }

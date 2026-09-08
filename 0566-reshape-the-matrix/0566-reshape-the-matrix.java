@@ -1,30 +1,48 @@
 class Solution {
     public int[][] matrixReshape(int[][] mat, int r, int c) {
-        int[][] newMatrix = new int[r][c];
-        int n=mat.length;
-        int orgCol=mat[0].length;
-        int[] arr=new int[n*orgCol];
+        // int[][] newMatrix = new int[r][c];
+        // int n=mat.length;
+        // int orgCol=mat[0].length;
+        // int[] arr=new int[n*orgCol];
 
-        if((n*orgCol)!=(r*c)){
+        // if((n*orgCol)!=(r*c)){
+        //     return mat;
+        // }
+
+        // int length=0;
+        // //Storing in 1D array
+        // for(int[] nums:mat){
+        //     for(int a:nums){
+        //         arr[length++]=a;
+        //     }
+        // }
+
+        // int nLength=0;
+        // //Storing values of 1D array into 2D array
+        // for(int i = 0; i < r; i++) {
+        //     for(int j = 0; j < c; j++) {
+        //         newMatrix[i][j] = arr[nLength++];
+        //     }
+        // }
+
+        // return newMatrix;
+
+
+        //Without using 1D array
+
+        int row=mat.length;
+        int col=mat[0].length;
+
+        if((row*col)!=(r*c)){
             return mat;
         }
 
-        int length=0;
-        //Storing in 1D array
-        for(int[] nums:mat){
-            for(int a:nums){
-                arr[length++]=a;
-            }
+        int[][] result = new int[r][c];
+
+        for(int i=0;i<row*col;i++){
+            result[i/c][i%c]=mat[i/col][i%col];
         }
 
-        int nLength=0;
-        //Storing values of 1D array into 2D array
-        for(int i = 0; i < r; i++) {
-            for(int j = 0; j < c; j++) {
-                newMatrix[i][j] = arr[nLength++];
-            }
-        }
-
-        return newMatrix;
+        return result;
     }
 }

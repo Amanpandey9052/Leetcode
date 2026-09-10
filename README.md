@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Amanpandey9052/Leetcode/tree/master/0001-two-sum) |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/Amanpandey9052/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0053-maximum-subarray](https://github.com/Amanpandey9052/Leetcode/tree/master/0053-maximum-subarray) |
 | [0066-plus-one](https://github.com/Amanpandey9052/Leetcode/tree/master/0066-plus-one) |
 | [0566-reshape-the-matrix](https://github.com/Amanpandey9052/Leetcode/tree/master/0566-reshape-the-matrix) |
@@ -95,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/Amanpandey9052/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0832-flipping-an-image](https://github.com/Amanpandey9052/Leetcode/tree/master/0832-flipping-an-image) |
 ## Bit Manipulation
 |  |

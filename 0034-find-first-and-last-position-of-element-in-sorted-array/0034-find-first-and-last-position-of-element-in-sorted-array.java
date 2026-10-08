@@ -37,5 +37,24 @@ class Solution {
         }
         
         return ans;
+
+        //Space Compexity=O(logn) Time complexity = O(1)
+
+        // List<Integer> list = new ArrayList<>();
+
+        // for(int i=0;i<nums.length;i++){
+        //     if(nums[i]==target) list.add(i);
+        // }
+
+        // int[] ans={-1,-1};
+
+        // if(list.size()!=0) {
+        //     ans[0]=Collections.min(list);
+        //     ans[1]=Collections.max(list);
+        // }
+
+        // return ans;
+
+        //Brute force approach Time complexity=O(n) space complexity=O(k)
     }
 }

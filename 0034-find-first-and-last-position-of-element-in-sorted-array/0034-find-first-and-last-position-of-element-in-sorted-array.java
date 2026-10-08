@@ -43,7 +43,7 @@ class Solution {
         // List<Integer> list = new ArrayList<>();
 
         // for(int i=0;i<nums.length;i++){
-        //     if(nums[i]==target) list.add(i);
+        //     if(nums[i]==target && nums[i]<=target) list.add(i);
         // }
 
         // int[] ans={-1,-1};

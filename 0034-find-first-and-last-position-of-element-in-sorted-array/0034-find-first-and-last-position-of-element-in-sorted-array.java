@@ -7,7 +7,7 @@ class Solution {
         
         //find first occurence
         while(left<=right){
-            int mid=(left+right)/2;
+            int mid=left+(right-left)/2;
 
             if(nums[mid]==target) {
                 ans[0]=mid;
@@ -24,7 +24,7 @@ class Solution {
 
         //find second occurence
         while(left<=right){
-            int mid=(left+right)/2;
+            int mid=left+(right-left)/2;
 
             if(nums[mid]==target) {
                 ans[1]=mid;

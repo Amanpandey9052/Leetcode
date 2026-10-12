@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0059-spiral-matrix-ii](https://github.com/Amanpandey9052/Leetcode/tree/master/0059-spiral-matrix-ii) |
 | [0066-plus-one](https://github.com/Amanpandey9052/Leetcode/tree/master/0066-plus-one) |
 | [0073-set-matrix-zeroes](https://github.com/Amanpandey9052/Leetcode/tree/master/0073-set-matrix-zeroes) |
+| [0075-sort-colors](https://github.com/Amanpandey9052/Leetcode/tree/master/0075-sort-colors) |
 | [0189-rotate-array](https://github.com/Amanpandey9052/Leetcode/tree/master/0189-rotate-array) |
 | [0238-product-of-array-except-self](https://github.com/Amanpandey9052/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [0566-reshape-the-matrix](https://github.com/Amanpandey9052/Leetcode/tree/master/0566-reshape-the-matrix) |
@@ -104,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0075-sort-colors](https://github.com/Amanpandey9052/Leetcode/tree/master/0075-sort-colors) |
 | [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/Amanpandey9052/Leetcode/tree/master/1365-how-many-numbers-are-smaller-than-the-current-number) |
 ## Counting Sort
 |  |
@@ -117,6 +119,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Amanpandey9052/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0075-sort-colors](https://github.com/Amanpandey9052/Leetcode/tree/master/0075-sort-colors) |
 | [0189-rotate-array](https://github.com/Amanpandey9052/Leetcode/tree/master/0189-rotate-array) |
 | [0832-flipping-an-image](https://github.com/Amanpandey9052/Leetcode/tree/master/0832-flipping-an-image) |
 ## Bit Manipulation
@@ -141,4 +144,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Amanpandey9052/Leetcode/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
+## Quicksort
+|  |
+| ------- |
+| [0075-sort-colors](https://github.com/Amanpandey9052/Leetcode/tree/master/0075-sort-colors) |
+## Bubble Sort
+|  |
+| ------- |
+| [0075-sort-colors](https://github.com/Amanpandey9052/Leetcode/tree/master/0075-sort-colors) |
 <!---LeetCode Topics End-->

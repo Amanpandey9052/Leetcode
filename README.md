@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0073-set-matrix-zeroes](https://github.com/Amanpandey9052/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/Amanpandey9052/Leetcode/tree/master/0075-sort-colors) |
 | [0189-rotate-array](https://github.com/Amanpandey9052/Leetcode/tree/master/0189-rotate-array) |
+| [0198-house-robber](https://github.com/Amanpandey9052/Leetcode/tree/master/0198-house-robber) |
 | [0238-product-of-array-except-self](https://github.com/Amanpandey9052/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [0566-reshape-the-matrix](https://github.com/Amanpandey9052/Leetcode/tree/master/0566-reshape-the-matrix) |
 | [0832-flipping-an-image](https://github.com/Amanpandey9052/Leetcode/tree/master/0832-flipping-an-image) |
@@ -135,6 +136,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0053-maximum-subarray](https://github.com/Amanpandey9052/Leetcode/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/Amanpandey9052/Leetcode/tree/master/0055-jump-game) |
+| [0198-house-robber](https://github.com/Amanpandey9052/Leetcode/tree/master/0198-house-robber) |
 ## Greedy
 |  |
 | ------- |
